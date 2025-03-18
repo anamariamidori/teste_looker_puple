@@ -15,6 +15,15 @@
             font-weight: bold !important;
             color: #000000;
         }
+.reportTable {
+      font-family: 'Open Sans', Helvetica, Arial, Noto Sans TC, Noto Sans SC, sans-serif;
+      font-weight: bold !important;
+      color: #000000;
+      border-collapse: collapse;
+      border-spacing: 5px;
+      table-layout: fixed;
+      background-color: #BFFFC9;
+  }
 
 
   .total {
@@ -22,3 +31,10 @@
             background-color: #ffcc99;
             border-top: 2px solid #696969;
         }
+ th.headerCell {
+      background-color: #72C472;
+      color: black;
+      padding: 10px;
+      border-bottom: 2px solid #000000;
+      text-align: left;
+  }
