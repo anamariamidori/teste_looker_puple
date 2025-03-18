@@ -13,12 +13,12 @@
             border-collapse: collapse;
             font-family: 'Open Sans', Helvetica, Arial, sans-serif;
             font-weight: bold !important;
-            color: #000000;
+            color: #00000;
         }
 .reportTable {
       font-family: 'Open Sans', Helvetica, Arial, Noto Sans TC, Noto Sans SC, sans-serif;
       font-weight: bold !important;
-      color: #000000;
+      color: #00000;
       border-collapse: collapse;
       border-spacing: 5px;
       table-layout: fixed;
@@ -37,4 +37,9 @@
       padding: 10px;
       border-bottom: 2px solid #000000;
       text-align: left;
+  }
+.rowCell {
+      vertical-align: middle;
+      padding: 8px;
+      border-bottom: 1px solid #606060;
   }
