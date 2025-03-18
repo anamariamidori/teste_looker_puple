@@ -8,31 +8,17 @@
       src: url('./fonts/noto-sans-sc-v11-latin_chinese-simplified-regular.woff2') format('woff2');
   }
   
-  table {
+  body {
             width: 100%;
             border-collapse: collapse;
             font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+            font-weight: bold !important;
             color: #696969;
         }
 
-  th, td {
-            padding: 8px;
-            text-align: left;
-            border-bottom: 1px solid #BDC3C7;
-        }
-
-  th {
-            background-color: #1E2C5B;
-            color: white;
-        }
-
-  .qtd {
-          background-color: #E9DCC7;
-            font-weight: bold;
-            text-align: right;
-        }
 
   .total {
             font-weight: bold;
+            color: #ffcc99;
             border-top: 2px solid #696969;
         }
