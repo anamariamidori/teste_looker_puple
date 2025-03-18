@@ -22,7 +22,7 @@
       border-collapse: collapse;
       border-spacing: 5px;
       table-layout: fixed;
-      background-color: #BFFFC9;
+      background-color: #fffff;
   }
 
 
@@ -32,7 +32,7 @@
             border-top: 2px solid #696969;
         }
  th.headerCell {
-      background-color: #72C472;
+      background-color: #99ffff;
       color: black;
       padding: 10px;
       border-bottom: 2px solid #000000;
