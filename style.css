@@ -8,99 +8,31 @@
       src: url('./fonts/noto-sans-sc-v11-latin_chinese-simplified-regular.woff2') format('woff2');
   }
   
-  body {
-      background: #FFFFFF;
-      color: #333333;
-      font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-  }
-  
-  #tooltip {
-      position: absolute;
-      width: auto;
-      height: auto;
-      padding: 10px;
-      background-color: rgba(0, 0, 0, 0.8);
-      box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
-      pointer-events: none;
-      font-size: 14px;
-      color: #E0E0E0;
-      z-index: 2;
-  }
-  
-  .reportTable {
-      font-family: 'Open Sans', Helvetica, Arial, Noto Sans TC, Noto Sans SC, sans-serif;
-      color: #333333;
-      border-collapse: collapse;
-      table-layout: fixed;
-      background-color: #CCFFFF;
-      padding: 20px;
-      font-size: 20px;
-      font-weight: bold;
-  }
-  
-  th.headerCell {
-      background-color: #CCFFFF;
-      color: #333333;
-      padding: 15px;
-      border-bottom: 2px solid #A6A6A6;
-      text-align: left;
-      font-weight: bold;
-      font-size: 22px;
-  }
-  
-  .rowCell {
-      vertical-align: middle;
-      padding: 10px;
-      border-bottom: 1px solid #CCCCCC;
-      font-size: 20px;
-      font-weight: bold;
-      color: #333333;
-  }
-  
+  table {
+            width: 100%;
+            border-collapse: collapse;
+            font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+            color: #696969;
+        }
+
+  th, td {
+            padding: 8px;
+            text-align: left;
+            border-bottom: 1px solid #BDC3C7;
+        }
+
+  th {
+            background-color: #1E2C5B;
+            color: white;
+        }
+
+  .qtd {
+          background-color: #E9DCC7;
+            font-weight: bold;
+            text-align: right;
+        }
+
   .total {
-      border-top: 2px solid #A6A6A6 !important;
-      font-weight: bold !important;
-      background-color: #FFCC99;
-      font-size: 22px;
-  }
-  
-  .numeric {
-      text-align: right;
-  }
-  
-  .negative {
-      color: #FF6B6B;
-  }
-  
-  .positive {
-      color: #6BFF95;
-  }
-  
-  .deviceBreakdown {
-      display: flex;
-      justify-content: space-around;
-      margin-top: 20px;
-  }
-  
-  .chart {
-      width: 220px;
-      height: 220px;
-  }
-  
-  .box {
-      background: #FFFFFF;
-      padding: 15px;
-      margin-bottom: 15px;
-  }
-  
-  .box-title {
-      font-size: 22px;
-      font-weight: bold;
-      color: #333333;
-  }
-  
-  .highlight {
-      font-size: 28px;
-      font-weight: bold;
-      color: #FFD700;
-  }
+            font-weight: bold;
+            border-top: 2px solid #696969;
+        }
