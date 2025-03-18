@@ -13,12 +13,12 @@
             border-collapse: collapse;
             font-family: 'Open Sans', Helvetica, Arial, sans-serif;
             font-weight: bold !important;
-            color: #696969;
+            color: #000000;
         }
 
 
   .total {
             font-weight: bold;
-            color: #ffcc99;
+            background-color: #ffcc99;
             border-top: 2px solid #696969;
         }
