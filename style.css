@@ -43,6 +43,9 @@
       padding: 8px;
       border-bottom: 1px solid #606060;
   }
+.coluna {
+    border-right: 2px solid red; /* Linha vermelha entre as colunas */
+}
 border {
       padding: 8px;
       border-left: 1px solid #000000;
